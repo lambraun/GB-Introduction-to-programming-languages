@@ -6,5 +6,25 @@
 // a = 9, b = -3 => да
 // a = -3, b = 9 => нет
 
-int number = 9;
-int result = number * number;
+// int number = 9;
+// int result = number * number;
+
+// Console.Write("Введите число");
+// //string input = Console.ReadLine();
+// int input = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(input + 1000);
+
+Console.Write("Введите первое число: ");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+if(firstNumber == secondNumber * secondNumber)
+{
+    Console.Write("Да, " + firstNumber + " является кв. от числа " + secondNumber);
+}
+else
+{
+    Console.Write("Нет, " + firstNumber + " не является кв. от числа " + secondNumber);
+}
