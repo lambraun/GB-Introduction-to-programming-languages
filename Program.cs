@@ -33,12 +33,17 @@
 // целое число N, а на выходе показывает все целые
 // числа в промежутке от -N до N.
 
-Console.Write("Введите число N: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int negativeN = N * -1;
+// Console.Write("Введите число N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// if (N < 0)
+// {
+//     Console.WriteLine("Введено отрицательное число N");
+//     N = N * -1;
+// }
+// int negativeN = N * -1;
 
-while(negativeN <= N)
-{
-    Console.Write(negativeN + ", ");
-    negativeN++;               //(negativeN = negativeN + 1)
-}
+// while(negativeN <= N)
+// {
+//     Console.Write(negativeN + ", ");
+//     negativeN++;               //Инкремент - negativeN = negativeN + 1
+// }                              //Декремент - negativeN-- = negativeN - 1
